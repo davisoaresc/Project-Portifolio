@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgba(2, 37, 2);
+  height: 30px;
+  padding: 10px;
+}
+
+th {
+  background-color: rgba(181, 184, 0, 0.7);
+  border: 1px solid rgb(116, 136, 1);
+  padding: 20px;
+}
