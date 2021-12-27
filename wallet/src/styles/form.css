@@ -1,0 +1,104 @@
+.wallet {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(218, 216, 216);
+  height: 1000px;
+}
+
+.wallet-form {
+  align-items: center;
+  display: flex;
+  margin: 60px 0 30px;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+select {
+  margin-top: 10px;
+  background: white;
+  border: none;
+  border-bottom: 3px solid rgba(181, 184, 0, 0.7);
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+span {
+  color: rgba(181, 184, 0, 0.7);
+  font-size: 14px;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgba(181, 184, 0, 0.7);
+  border: 1px solid rgb(116, 136, 1);
+  padding: 20px;
+}
+
+td {
+  border: 1px solid rgba(2, 37, 2);
+  padding: 10px;
+  height: 30px;
+}
+
+.submit-wallet {
+  background-color: darkgreen;
+  border: 2px inset rgba(166, 221, 166, 0.692);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 15%;
+}
+
+.submit-wallet:hover {
+  background: rgb(15, 161, 15);
+}
+
+.wallet-inputs {
+  margin-top: 10px;
+  border: none;
+  border-bottom: 3px solid rgba(181, 184, 0, 0.7);
+  height: 100%;
+  padding-top: 21px;
+}
+
+.select-container {
+  align-items: center;
+  display: flex;
+}
+
+.icons {
+  color: rgba(82, 83, 1, 0.7);
+  margin-left: 30px;
+}
+
+.icon1 {
+  cursor: pointer;
+}
+
+.icon1:hover {
+  color: rgb(189, 189, 4);
+}
+
+.delete {
+  cursor: pointer;
+  margin-left: 20px;
+  color: rgb(190, 0, 0);
+}
+
+.delete:hover {
+  color: red;
+}

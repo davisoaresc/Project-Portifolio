@@ -1,0 +1,41 @@
+.login-forms {
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  height: 932px;
+  justify-content: center;
+}
+
+.form {
+  align-items: center;
+  background: whitesmoke;
+  border: 1px solid rgb(107, 106, 106);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-evenly;
+  width: 350px;
+}
+
+input {
+  background: whitesmoke;
+  border: none;
+  border-bottom: 2px solid rgb(161, 159, 159);
+  height: 30px;
+  width: 100%;
+}
+
+.send-button {
+  background-color: darkgreen;
+  border: 2px inset rgba(166, 221, 166, 0.692);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 80%;
+}
+
+.send-button:hover {
+  background: rgb(15, 161, 15);
+}
